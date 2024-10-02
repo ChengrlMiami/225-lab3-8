@@ -2,9 +2,9 @@ pipeline {
     agent any 
 
     environment {
-        DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'
-        GITHUB_URL = 'https://github.com/miamioh-cit/225-lab3-8.git'                                    //<------This github URL
-        KUBECONFIG = credentials('roseaw-225')                                                          //<------Your MiamiID
+        DOCKER_CREDENTIALS_ID = 'chengrl-dockerhub'
+        GITHUB_URL = 'https://github.com/ChengrlMiami/225-lab3-8.git'                                    //<------This github URL
+        KUBECONFIG = credentials('chengrl-225')                                                          //<------Your MiamiID
     }
 
     stages {
